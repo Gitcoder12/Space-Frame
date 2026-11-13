@@ -17,3 +17,12 @@ Single-page HTML/CSS/JavaScript application. The orbital scale is display-adjust
 | YYYY-MM-DD | name | data/model/source | files and behavior | browser/version/test | pass / fail / not run | evidence |
 
 Record visual changes and scientific/data updates separately. A visually convincing orbit is not proof of physical accuracy.
+
+## Portfolio documentation rollout — 2026-11-13
+
+- Documentation PR: https://github.com/Gitcoder12/Space-Frame/pull/2
+- Added project-specific feature plan, company-fit mapping, two-level README guide and quality checklist.
+- Added contributor and bounded agent/skills guidance for this project's current stage.
+- README now separates the simple user explanation from technical/research scope and explicitly distinguishes concepts from implemented features.
+- Validation: documentation/source review only; no runtime test or deployment is claimed by this documentation PR.
+- Status: draft PR, not merged.
