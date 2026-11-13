@@ -51,3 +51,17 @@ See [LICENSE](LICENSE).
 - [Company and team fit](COMPANY_FIT.md) · [README explanation draft](README_ADDENDUM_DRAFT.md)
 - [README quality checklist](README_QUALITY_CHECKLIST.md)
 - [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Agent skills](SKILLS.md)
+
+## Understanding the project
+
+### In plain language
+
+A browser-based Solar System explorer that lets visitors interact with a simple visual model of space.
+
+### Technical and research view
+
+Single-page HTML/CSS/JavaScript application. The orbital scale is display-adjusted/illustrative; the project should not claim accurate Keplerian trajectories, live NASA telemetry or physically faithful scales unless the implementation and data source prove it. The existing PR #1 proposes clarifying those limitations in page metadata and landing copy.
+
+Document coordinate frame, units, time model, scale transformations, rendering loop, data sources and browser requirements. Distinguish display positions from scientific positions.
+
+For future work, see [FEATURE_UPGRADE_PLAN.md](FEATURE_UPGRADE_PLAN.md), [ACTIVITY_LOG.md](ACTIVITY_LOG.md), [COMPANY_FIT.md](COMPANY_FIT.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
