@@ -26,3 +26,11 @@ Record visual changes and scientific/data updates separately. A visually convinc
 - README now separates the simple user explanation from technical/research scope and explicitly distinguishes concepts from implemented features.
 - Validation: documentation/source review only; no runtime test or deployment is claimed by this documentation PR.
 - Status: draft PR, not merged.
+
+## Portfolio documentation rollout — 2026-11-13
+
+- Documentation PR: https://github.com/Gitcoder12/Space-Frame/pull/2
+- Added project-specific feature roadmap, company-fit guide, beginner/technical README explanation and README quality checklist.
+- Added contribution guidance and scoped agent/skills notes while preserving project-specific limitations and upstream instructions where applicable.
+- Validation: documentation/source review only; no application runtime test, backup restore, hosted service or deployment is claimed by this docs PR.
+- Status: draft PR, not merged.
