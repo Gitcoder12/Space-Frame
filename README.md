@@ -13,3 +13,21 @@ This section supplements the maintainer-authored README above. The original text
 - Mark unverified sources, identifiers, metrics, benchmark results and external claims as unknown/unverified rather than guessing.
 - Verify setup, execution, tests and public claims against the exact current commit before using this repository in a job, research or academic application.
 - See [MODEL_AUDIT_ROUTER.md](MODEL_AUDIT_ROUTER.md) for independent model review instructions and the merge gate.
+
+---
+
+## Engineering Audit & Handover — 2026-11-17
+
+**Reviewed commit:** `afb060c42040c1818dfd140c162cf012ed0b7b1b` (`main`).
+
+### Confirmed findings
+- The reviewed implementation is a single-file browser application, `Space-Frame.html`; no automated test suite was found in the reviewed tree.
+- The HTML metadata correctly warns that orbital scales are adjusted for display and are not authoritative ephemeris data. Preserve this scientific limitation in all future descriptions and UI.
+- Static inspection does not establish numerical accuracy, accessibility, mobile behavior, or browser compatibility.
+
+### Next actions
+1. Keep illustrative orbital scaling visibly distinguished from real astronomical data.
+2. Add tests for orbital calculations and controls if the simulation exposes numerical behavior.
+3. Perform browser/device checks and document supported browsers and data sources.
+
+**Verification status:** source and metadata inspection only; no browser test or scientific validation was performed.
