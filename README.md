@@ -31,3 +31,10 @@ This section supplements the maintainer-authored README above. The original text
 3. Perform browser/device checks and document supported browsers and data sources.
 
 **Verification status:** source and metadata inspection only; no browser test or scientific validation was performed.
+
+---
+
+## Examples Used
+- Exploring the Earth-Moon system and mission history
+- Following satellite and space-station development
+- Simulating future lunar or Mars infrastructure concepts
