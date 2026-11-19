@@ -38,3 +38,27 @@ This section supplements the maintainer-authored README above. The original text
 - Exploring the Earth-Moon system and mission history
 - Following satellite and space-station development
 - Simulating future lunar or Mars infrastructure concepts
+
+
+---
+
+## Comparison with Existing Open-Source Projects
+
+Space-Frame is described as an interactive Solar System explorer that visualizes missions, satellites, infrastructure and possible future expansion over time. These projects provide established astronomy and 3D-visualization references.
+
+| Project | Established focus | Relationship to Space-Frame |
+|---|---|---|
+| [Stellarium](https://github.com/Stellarium/stellarium) | Open-source planetarium with sky rendering and astronomical calculations | Much stronger observational astronomy and sky-accuracy focus; Space-Frame is framed around mission/infrastructure history and future scenarios. |
+| [Celestia](https://github.com/CelestiaProject/Celestia) | 3D space simulation and exploration across astronomical scales | A mature 3D space exploration environment; Space-Frame's intended distinction is timeline-oriented storytelling across missions and infrastructure. |
+| [Three.js](https://github.com/mrdoob/three.js) | General-purpose JavaScript 3D graphics library | A rendering foundation rather than a space-data application; Space-Frame uses a browser-oriented interactive visualization approach. |
+
+### Where Space-Frame is different
+- **Time-aware exploration:** the concept combines past missions, current assets and future infrastructure scenarios in one experience.
+- **Mission and civilization context:** satellites, missions, colonies and infrastructure are intended to be navigable as a connected story rather than only astronomical objects.
+- **Browser accessibility:** the README describes a single-file browser application for immediate exploration.
+
+### Where established projects are stronger
+Stellarium and Celestia have far more mature astronomical data, calculations and visualization capabilities. Three.js is a general graphics library, not a scientific source. Space-Frame must not claim ephemeris accuracy or authoritative orbital positions unless it uses validated datasets and calculations.
+
+### Scientific and visualization limitations
+The README already notes that orbital scales are adjusted for display. Keep illustrative scaling clearly labelled, cite mission/satellite datasets and timestamps, and distinguish confirmed missions from proposed or speculative future scenarios. This is a visualization-scope comparison, not a scientific-accuracy benchmark.
