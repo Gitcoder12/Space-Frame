@@ -2,6 +2,26 @@
 SpaceFrame is an interactive Solar System explorer that visualizes humanity's past, present, and future in space through evolving missions, satellites, infrastructure, colonies, and civilization-scale expansion across the cosmos.
 
 
+## Open Space-Frame locally (VS Code)
+
+1. Clone the repository and open it in VS Code:
+
+```bash
+git clone https://github.com/Gitcoder12/Space-Frame.git
+cd Space-Frame
+```
+
+2. Start a local web server from the repository root:
+
+```bash
+python -m http.server 8000
+```
+
+3. Open **http://localhost:8000/Space-Frame.html** in your browser.
+4. Keep the terminal running while using the explorer; press **Ctrl+C** to stop the server.
+
+No npm install or build step is required. Orbital distances and scales are illustrative and are not authoritative ephemeris data.
+
 ---
 
 ## AI-maintained project notes (secondary — 2026-11-13)
