@@ -38,3 +38,9 @@ This section supplements the maintainer-authored README above. The original text
 - Exploring the Earth-Moon system and mission history
 - Following satellite and space-station development
 - Simulating future lunar or Mars infrastructure concepts
+
+---
+
+## Repository navigation
+
+[Alphabetical file index](FILE_INDEX.md)
